@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bonuses",
+  "info": {
+    "singularName": "bonus",
+    "pluralName": "bonuses",
+    "displayName": "Bonus"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "flower_id": {
+      "type": "string"
+    },
+    "accessory_id": {
+      "type": "string"
+    },
+    "off_price": {
+      "type": "decimal"
+    }
+  }
+}

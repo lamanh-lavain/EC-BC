@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "string"
+    },
+    "order_date": {
+      "type": "datetime"
+    },
+    "shipping_address": {
+      "type": "text"
+    },
+    "total_amount": {
+      "type": "decimal"
+    },
+    "off_price": {
+      "type": "decimal"
+    },
+    "order_status": {
+      "type": "string"
+    },
+    "payment_method": {
+      "type": "string"
+    }
+  }
+}

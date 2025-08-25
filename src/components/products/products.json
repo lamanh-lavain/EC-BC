@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_products_products",
+  "info": {
+    "displayName": "products",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image_url": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "flower_details": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}
